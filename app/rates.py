@@ -38,7 +38,6 @@ def get_rates_with_limit(limit=configuration.limit):
     for rate_name, rate_value in rates.items():
         if rate_value < limit:
             limited_rate_names.append(rate_name)
-    print(f"All rate names lower than {limit}:")
     print(limited_rate_names)
     return limited_rate_names
 

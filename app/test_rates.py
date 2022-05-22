@@ -1,5 +1,5 @@
-import configuration
 import mock
+import configuration
 import rates
 
 
